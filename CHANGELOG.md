@@ -28,18 +28,4 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 A claim-only integration with no `purchaseController` registered is a supported configuration. With none registered, an offer configured for in-app purchase resolves `PublisherOutcome.NotAttempted`, a warning is logged, and nothing is charged. Billing is a runtime-scope dependency that the claim and entitlement paths do not touch; stripping `com.android.vending.BILLING` from the merged manifest with `tools:node="remove"` is fine in that configuration.
 
-## [2.0.3] - 2026-08-14
-
-## [2.0.2] - 2026-08-14
-
-## [2.0.1] - 2026-08-12
-
-## [2.0.0] - 2026-08-12
-
-Versions 2.0.0 through 2.0.3 predate this changelog. Artifacts are on Maven Central; the 1.x to 2.0 migration guide is provided with the integration documentation.
-
-[2.1.0]: https://central.sonatype.com/artifact/com.encorekit/encore/2.1.0
-[2.0.3]: https://central.sonatype.com/artifact/com.encorekit/encore/2.0.3
-[2.0.2]: https://central.sonatype.com/artifact/com.encorekit/encore/2.0.2
-[2.0.1]: https://central.sonatype.com/artifact/com.encorekit/encore/2.0.1
-[2.0.0]: https://central.sonatype.com/artifact/com.encorekit/encore/2.0.0
+[2.1.0]: https://github.com/EncoreKit/android-sdk/releases/tag/v2.1.0
